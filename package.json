@@ -1,0 +1,28 @@
+{
+  "name": "stripesusan",
+  "version": "1.0.0",
+  "description": "Övning i projekt med betallösning i stripe",
+  "main": "index.js",
+  "engines": {
+    "node": "v14.17.5"
+  },
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SusanIsaksson/stripeSusan.git"
+  },
+  "author": "Susan Isaksson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SusanIsaksson/stripeSusan/issues"
+  },
+  "homepage": "https://github.com/SusanIsaksson/stripeSusan#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "stripe": "^8.176.0"
+  }
+}
