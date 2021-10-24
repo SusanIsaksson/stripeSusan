@@ -4,25 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://js.stripe.com/v3/"></script>
+    <script defer src="https://js.stripe.com/v3/"></script>
     <script defer src="./public.js"></script>
     <title>stripeSusan</title>
 </head>
 <body>
     <h1>Susans E-shop med stripe</h1>
     <p>Här hittar du bra produkter till bra priser...</p>
-    <div id="counter"></div>
+    <div><h5 id="cartCounter">0</h5><a href="cart.html">CART</a></div>
     <div>
         <h3>Ahlgrens bilar - original</h3>
-        <button id="prodOne">Lägg till</button>
+        <p>klassiska Ahlgrens bilar smaker</p>
+        <h5>12.00 kr</h5>
+        <div id="testDiv"></div>
+        <div><h5 id="counter">0</h5></div>
+        <button id="addItem">Lägg till</button>
     </div>
-    <div>
-        <h3>Ahlgrens bilar - saltlakrits</h3>
-        <button id="prodTwo">Lägg till</button>
-    </div>
-    <div>
+    <div style="margin-top: 1em;">
         <button id="checkOut">CHECKOUT</button>
     </div>
+
+    <div id="productItem"></div>
+    
 
     
 </body>
